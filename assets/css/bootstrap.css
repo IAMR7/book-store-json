@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar {
+    background-color: rgb(113, 77, 240);
+}
+
+section.cover {
+    background-image: url(https://s26162.pcdn.co/wp-content/uploads/2018/12/11-bookstores-6-three-lives-2.w710.h473.2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    padding-top: 120px;
+}
+
+section.cover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    opacity: 75%;
+    background-color: rgb(0, 0, 0);
+}
+
+section.cover div.container {
+    z-index: 1;
+    position: relative;
+}
+
+section.cover div.container a {
+    color: rgb(113, 77, 240);
+}
+
+div.card h5.card-title, p.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.card img {
+    width: 100%;
+    height: 350px;
+}
+
+div.card a.btn.btn-buy {
+    background-color: rgb(113, 77, 240);
+}
+
+footer {
+    background-color: rgb(113, 77, 240);
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
