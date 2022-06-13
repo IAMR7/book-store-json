@@ -9,7 +9,7 @@ nav.navbar {
 }
 
 section.cover {
-    background-image: url(https://s26162.pcdn.co/wp-content/uploads/2018/12/11-bookstores-6-three-lives-2.w710.h473.2x.jpg);
+    background-image: url(../img/perpus.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -37,7 +37,7 @@ footer a {
     text-decoration: none;
 }
 
-/* section.cover div.container a {
+section.cover div.container a {
     color: rgb(113, 77, 240);
 }
 
@@ -66,4 +66,4 @@ footer a {
     color: white;
     text-decoration: none;
     text-align: center;
-} */
+}
